@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于熊厚亦是gay这档事</title>
+    <style>
+        /* ===== 清新风全局样式 ===== */
+        :root {
+            --primary: #8cbf42;
+            --bg: #fafcf5;       /* 加了点绿调的米白，比纯灰白更协调 */
+            --card: #ffffff;
+            --text: #333;
+            --border: #e4ead8;   /* 边框也带点绿调 */
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; padding: 20px; }
+
+        .container { max-width: 640px; margin: 0 auto; }
+
+        /* 头部 */
+        header { text-align: center; margin-bottom: 40px; padding-top: 20px; }
+        header h1 { font-size: 2rem; color: var(--primary); margin-bottom: 8px; }
+        header p { color: #888; font-size: 0.95rem; }
+
+        /* 卡片样式 */
+        .card { background: var(--card); border-radius: 12px; padding: 28px; margin-bottom: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+        .card h2 { font-size: 1.2rem; margin-bottom: 20px; color: var(--primary); }
+
+        /* 展示图片 */
+        .card img {
+            max-width: 100%;      /* 不超过卡片宽度 */
+            max-height: 300px;    /* 高度上限，防止长图撑爆页面 */
+            width: auto;          /* 保持原始比例 */
+            height: auto;         /* 保持原始比例 */
+            border-radius: 8px;
+            display: block;
+            margin: 8px auto 0;   /* 在卡片里居中 */
+            object-fit: contain;  /* 完整显示图片，不裁剪 */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>熊厚亦是gay</h1>
+        <p>你说的对，确实是gay</p>
+    </header>
+
+    <div class="card">
+        <h2>如图</h2>
+        <img src="xhy.png" alt="熊厚亦">
+    </div>
+</div>
+</body>
+</html>
